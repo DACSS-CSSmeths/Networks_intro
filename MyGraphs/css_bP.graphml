@@ -1,94 +1,94 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d2" for="edge" attr.name="weight" attr.type="long" />
-  <key id="d1" for="node" attr.name="color" attr.type="string" />
-  <key id="d0" for="node" attr.name="bipartite" attr.type="long" />
+  <key id="weight" for="edge" attr.name="weight" attr.type="long" />
+  <key id="color" for="node" attr.name="color" attr.type="string" />
+  <key id="bipartite" for="node" attr.name="bipartite" attr.type="long" />
   <graph edgedefault="undirected">
     <node id="Dustin Hoffman">
-      <data key="d0">0</data>
-      <data key="d1">yellow</data>
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
     </node>
     <node id="Morgan Freeman">
-      <data key="d0">0</data>
-      <data key="d1">yellow</data>
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
     </node>
     <node id="Tom Hardy">
-      <data key="d0">0</data>
-      <data key="d1">yellow</data>
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
     </node>
     <node id="Jack Nicholson">
-      <data key="d0">0</data>
-      <data key="d1">yellow</data>
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
     </node>
     <node id="Al Pacino">
-      <data key="d0">0</data>
-      <data key="d1">yellow</data>
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
     </node>
     <node id="Christian Bale">
-      <data key="d0">0</data>
-      <data key="d1">yellow</data>
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
     </node>
     <node id="Matt Damon">
-      <data key="d0">0</data>
-      <data key="d1">yellow</data>
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
     </node>
     <node id="Leonardo DiCaprio">
-      <data key="d0">0</data>
-      <data key="d1">yellow</data>
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
     </node>
     <node id="Robert De Niro">
-      <data key="d0">0</data>
-      <data key="d1">yellow</data>
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
     </node>
     <node id="Robin Williams">
-      <data key="d0">0</data>
-      <data key="d1">yellow</data>
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
     </node>
     <node id="Tom Hanks">
-      <data key="d0">0</data>
-      <data key="d1">yellow</data>
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
     </node>
     <edge source="Dustin Hoffman" target="Christian Bale">
-      <data key="d2">1</data>
+      <data key="weight">1</data>
     </edge>
     <edge source="Dustin Hoffman" target="Leonardo DiCaprio">
-      <data key="d2">1</data>
+      <data key="weight">1</data>
     </edge>
     <edge source="Dustin Hoffman" target="Tom Hanks">
-      <data key="d2">1</data>
+      <data key="weight">1</data>
     </edge>
     <edge source="Morgan Freeman" target="Christian Bale">
-      <data key="d2">1</data>
+      <data key="weight">1</data>
     </edge>
     <edge source="Morgan Freeman" target="Jack Nicholson">
-      <data key="d2">1</data>
+      <data key="weight">1</data>
     </edge>
     <edge source="Tom Hardy" target="Christian Bale">
-      <data key="d2">1</data>
+      <data key="weight">1</data>
     </edge>
     <edge source="Tom Hardy" target="Leonardo DiCaprio">
-      <data key="d2">1</data>
+      <data key="weight">1</data>
     </edge>
     <edge source="Jack Nicholson" target="Leonardo DiCaprio">
-      <data key="d2">1</data>
+      <data key="weight">1</data>
     </edge>
     <edge source="Al Pacino" target="Robin Williams">
-      <data key="d2">1</data>
+      <data key="weight">1</data>
     </edge>
     <edge source="Al Pacino" target="Robert De Niro">
-      <data key="d2">3</data>
+      <data key="weight">3</data>
     </edge>
     <edge source="Matt Damon" target="Robin Williams">
-      <data key="d2">1</data>
+      <data key="weight">1</data>
     </edge>
     <edge source="Matt Damon" target="Tom Hanks">
-      <data key="d2">1</data>
+      <data key="weight">1</data>
     </edge>
     <edge source="Leonardo DiCaprio" target="Tom Hanks">
-      <data key="d2">1</data>
+      <data key="weight">1</data>
     </edge>
     <edge source="Robert De Niro" target="Robin Williams">
-      <data key="d2">1</data>
+      <data key="weight">1</data>
     </edge>
   </graph>
 </graphml>
