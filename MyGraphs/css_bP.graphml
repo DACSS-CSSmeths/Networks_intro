@@ -5,6 +5,51 @@
   <key id="color" for="node" attr.name="color" attr.type="string" />
   <key id="bipartite" for="node" attr.name="bipartite" attr.type="long" />
   <graph edgedefault="undirected">
+    <node id="Robin Williams">
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
+      <data key="wonOscar">1</data>
+    </node>
+    <node id="Tom Hardy">
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
+      <data key="wonOscar">0</data>
+    </node>
+    <node id="Dustin Hoffman">
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
+      <data key="wonOscar">1</data>
+    </node>
+    <node id="Leonardo DiCaprio">
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
+      <data key="wonOscar">1</data>
+    </node>
+    <node id="Tom Hanks">
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
+      <data key="wonOscar">1</data>
+    </node>
+    <node id="Al Pacino">
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
+      <data key="wonOscar">1</data>
+    </node>
+    <node id="Morgan Freeman">
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
+      <data key="wonOscar">1</data>
+    </node>
+    <node id="Robert De Niro">
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
+      <data key="wonOscar">1</data>
+    </node>
+    <node id="Matt Damon">
+      <data key="bipartite">0</data>
+      <data key="color">yellow</data>
+      <data key="wonOscar">0</data>
+    </node>
     <node id="Jack Nicholson">
       <data key="bipartite">0</data>
       <data key="color">yellow</data>
@@ -15,73 +60,7 @@
       <data key="color">yellow</data>
       <data key="wonOscar">1</data>
     </node>
-    <node id="Al Pacino">
-      <data key="bipartite">0</data>
-      <data key="color">yellow</data>
-      <data key="wonOscar">1</data>
-    </node>
-    <node id="Tom Hardy">
-      <data key="bipartite">0</data>
-      <data key="color">yellow</data>
-      <data key="wonOscar">0</data>
-    </node>
-    <node id="Robin Williams">
-      <data key="bipartite">0</data>
-      <data key="color">yellow</data>
-      <data key="wonOscar">1</data>
-    </node>
-    <node id="Morgan Freeman">
-      <data key="bipartite">0</data>
-      <data key="color">yellow</data>
-      <data key="wonOscar">1</data>
-    </node>
-    <node id="Leonardo DiCaprio">
-      <data key="bipartite">0</data>
-      <data key="color">yellow</data>
-      <data key="wonOscar">1</data>
-    </node>
-    <node id="Matt Damon">
-      <data key="bipartite">0</data>
-      <data key="color">yellow</data>
-      <data key="wonOscar">0</data>
-    </node>
-    <node id="Robert De Niro">
-      <data key="bipartite">0</data>
-      <data key="color">yellow</data>
-      <data key="wonOscar">1</data>
-    </node>
-    <node id="Dustin Hoffman">
-      <data key="bipartite">0</data>
-      <data key="color">yellow</data>
-      <data key="wonOscar">1</data>
-    </node>
-    <node id="Tom Hanks">
-      <data key="bipartite">0</data>
-      <data key="color">yellow</data>
-      <data key="wonOscar">1</data>
-    </node>
-    <edge source="Jack Nicholson" target="Morgan Freeman">
-      <data key="weight">1</data>
-    </edge>
-    <edge source="Jack Nicholson" target="Leonardo DiCaprio">
-      <data key="weight">1</data>
-    </edge>
-    <edge source="Christian Bale" target="Morgan Freeman">
-      <data key="weight">1</data>
-    </edge>
-    <edge source="Christian Bale" target="Dustin Hoffman">
-      <data key="weight">1</data>
-    </edge>
-    <edge source="Christian Bale" target="Tom Hardy">
-      <data key="weight">1</data>
-    </edge>
-    <edge source="Al Pacino" target="Robert De Niro">
-      <data key="weight">3</data>
-    </edge>
-    <edge source="Al Pacino" target="Robin Williams">
-      <data key="weight">1</data>
-    </edge>
-    <edge source="Tom Hardy" target="Leonardo DiCaprio">
+    <edge source="Robin Williams" target="Al Pacino">
       <data key="weight">1</data>
     </edge>
     <edge source="Robin Williams" target="Matt Damon">
@@ -90,16 +69,37 @@
     <edge source="Robin Williams" target="Robert De Niro">
       <data key="weight">1</data>
     </edge>
-    <edge source="Leonardo DiCaprio" target="Dustin Hoffman">
+    <edge source="Tom Hardy" target="Christian Bale">
+      <data key="weight">1</data>
+    </edge>
+    <edge source="Tom Hardy" target="Leonardo DiCaprio">
+      <data key="weight">1</data>
+    </edge>
+    <edge source="Dustin Hoffman" target="Tom Hanks">
+      <data key="weight">1</data>
+    </edge>
+    <edge source="Dustin Hoffman" target="Christian Bale">
+      <data key="weight">1</data>
+    </edge>
+    <edge source="Dustin Hoffman" target="Leonardo DiCaprio">
       <data key="weight">1</data>
     </edge>
     <edge source="Leonardo DiCaprio" target="Tom Hanks">
       <data key="weight">1</data>
     </edge>
-    <edge source="Matt Damon" target="Tom Hanks">
+    <edge source="Leonardo DiCaprio" target="Jack Nicholson">
       <data key="weight">1</data>
     </edge>
-    <edge source="Dustin Hoffman" target="Tom Hanks">
+    <edge source="Tom Hanks" target="Matt Damon">
+      <data key="weight">1</data>
+    </edge>
+    <edge source="Al Pacino" target="Robert De Niro">
+      <data key="weight">3</data>
+    </edge>
+    <edge source="Morgan Freeman" target="Jack Nicholson">
+      <data key="weight">1</data>
+    </edge>
+    <edge source="Morgan Freeman" target="Christian Bale">
       <data key="weight">1</data>
     </edge>
   </graph>
